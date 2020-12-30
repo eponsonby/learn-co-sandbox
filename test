@@ -1,0 +1,9 @@
+x = '10'
+
+def change_value(val)
+  val << '20'
+end
+
+puts x
+change_value(x)
+puts x
